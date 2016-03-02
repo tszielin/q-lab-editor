@@ -8,14 +8,6 @@ import javax.swing.JMenuItem;
 
 import tszielin.qlab.util.listener.DefaultActionHintListener;
 
-/**
- * Menu with action
- * @author <b><code>Thomas
- *   Zielinski</code></b><small>(thomas.zielinski@nagler-company.com)</small><br><i><code>Nagler
- *   & Company GmbH<code></i><br><small>2006</small>
- * @version 1.0
- */
-
 public class ActionMenuItem extends JMenuItem {
   private static final long serialVersionUID = 3618253568473518775L;
 

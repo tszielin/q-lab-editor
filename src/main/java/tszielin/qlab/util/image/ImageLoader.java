@@ -104,13 +104,6 @@ public class ImageLoader {
   }
 }
 
-/**
- * Cache for loaded image from recource (file, URL)
- * @author <b><code>Thomas
- *   Zielinski</code></b><small>(thomas.zielinski@nagler-company.com)</small><br><i><code>Nagler
- *   & Company GmbH<code></i><br><small>2006</small>
- * @version 1.0
- */
 class ImageCache implements Serializable {
   private static final long serialVersionUID = 2314216982965306778L;
   private transient Map<Object,Image> map = new Hashtable<Object,Image>(); // do not Serialize

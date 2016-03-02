@@ -7,15 +7,6 @@ import javax.swing.JButton;
 
 import tszielin.qlab.util.listener.DefaultActionHintListener;
 
-/**
- * Button with action
- *
- * @author <b><code>Thomas
- *   Zielinski</code></b><small>(thomas.zielinski@nagler-company.com)</small><br><i><code>Nagler
- *   & Company GmbH<code></i><br><small>2006</small>
- * @version 1.0
- */
-
 abstract public class ActionButton extends JButton {
   private static final long serialVersionUID = -6292765621709674584L;
 

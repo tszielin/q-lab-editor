@@ -7,15 +7,6 @@ import javax.swing.Icon;
 
 import tszielin.qlab.util.action.ActionBase;
 
-/**
- * Action
- *
- * @author <b><code>Thomas
- *   Zielinski</code></b><small>(thomas.zielinski@nagler-company.com)</small><br><i><code>Nagler
- *   & Company GmbH<code></i><br><small>2006</small>
- * @version 1.0
- */
-
 abstract public class ActionBaseButton extends ActionBase {
   private static final long serialVersionUID = -576798796872223848L;
   private final Container parent;

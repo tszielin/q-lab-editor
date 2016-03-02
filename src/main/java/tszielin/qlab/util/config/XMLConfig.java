@@ -41,7 +41,7 @@ public abstract class XMLConfig implements Reloadable {
       try {
         if (!validate) {
           configuration = new XMLConfiguration((new File(path != null ? path : 
-            System.getProperty("com.nagler_company.config.path"), fileName != null ? 
+            System.getProperty("q-lab-editor.config.path"), fileName != null ? 
                 fileName : getFileName())).getPath());
         }
         else {
